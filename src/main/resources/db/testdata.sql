@@ -1,0 +1,1 @@
+CREATE TABLE car AS SELECT * FROM CSVREAD('classpath:db/test.csv');
