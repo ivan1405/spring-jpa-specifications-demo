@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "aa833fee-8560-4df0-87b5-5bd14d47bba8",
+		"name": "Spring JPA Specifications",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17472185"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/cars?page=2&size=10&fuelType=DIESEL&make=mazda&numberOfDoors=4&priceFrom=13000&priceTo=13800",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/cars?page=0&size=10&fuelType=GASOLINE&make=audi&numberOfDoors=4&priceFrom=13000&priceTo=20000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "fuelType",
+							"value": "GASOLINE"
+						},
+						{
+							"key": "make",
+							"value": "audi"
+						},
+						{
+							"key": "numberOfDoors",
+							"value": "4"
+						},
+						{
+							"key": "priceFrom",
+							"value": "13000"
+						},
+						{
+							"key": "priceTo",
+							"value": "20000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
