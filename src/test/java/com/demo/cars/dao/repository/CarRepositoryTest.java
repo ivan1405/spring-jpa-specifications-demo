@@ -21,7 +21,7 @@ import static com.demo.cars.utils.TestFactoryUtils.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest(showSql = false)
-@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.AUTO_CONFIGURED)
 class CarRepositoryTest {
 
     @Autowired
